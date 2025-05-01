@@ -1,0 +1,22 @@
+# Cloud Config:
+
+The cloud is split into AWS and Azure.
+We use OpenTofu for all cloud configurations.
+You can find the deployments in the `deployments` folder.
+Use the .tf files in the directories to see the infrastructure of this project.
+
+## AWS
+
+The directory is in /deployments/aws.
+The AWS CLI is configured on this machine. You can use the `aws` command to interact with AWS.
+
+## Azure
+
+The directory is in /deployments/azure.
+The Azure CLI is configured on this machine. You can use the `az` command to interact with Azure.
+
+## Vercel
+
+The Vercel CLI is configured on this machine. You can use the `vercel` command to interact with Vercel.
+
+- The Vercel CLI has many of the domains and frontend projects for this organization.

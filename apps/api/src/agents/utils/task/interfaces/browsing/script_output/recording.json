@@ -1,0 +1,160 @@
+{
+  "recordings": [
+    {
+      "id": "7a475a1e-f9b0-4f11-80fe-a40060e0554d",
+      "name": "Recording 10:21 PM",
+      "annotation": "fdsdfs",
+      "events": [
+        {
+          "type": "scroll",
+          "delay": 675,
+          "url": "http://sandbox.speck.sh/preview/3002b982-b896-4d05-9300-db27534bfec7/10ffbd3b-e034-4450-b4bb-0cf76b7d0df0/",
+          "target": {
+            "tag_name": "DOCUMENT",
+            "id": "",
+            "class_name": "",
+            "name": "",
+            "value": "",
+            "checked": false,
+            "xpath": "",
+            "css_selector": "",
+            "bounding_box": null,
+            "inner_text": ""
+          },
+          "scroll_x": 0,
+          "scroll_y": 1761
+        },
+        {
+          "type": "scroll",
+          "delay": 691,
+          "url": "http://sandbox.speck.sh/preview/3002b982-b896-4d05-9300-db27534bfec7/10ffbd3b-e034-4450-b4bb-0cf76b7d0df0/",
+          "target": {
+            "tag_name": "DOCUMENT",
+            "id": "",
+            "class_name": "",
+            "name": "",
+            "value": "",
+            "checked": false,
+            "xpath": "",
+            "css_selector": "",
+            "bounding_box": null,
+            "inner_text": ""
+          },
+          "scroll_x": 0,
+          "scroll_y": 2404
+        },
+        {
+          "type": "scroll",
+          "delay": 1013,
+          "url": "http://sandbox.speck.sh/preview/3002b982-b896-4d05-9300-db27534bfec7/10ffbd3b-e034-4450-b4bb-0cf76b7d0df0/",
+          "target": {
+            "tag_name": "DOCUMENT",
+            "id": "",
+            "class_name": "",
+            "name": "",
+            "value": "",
+            "checked": false,
+            "xpath": "",
+            "css_selector": "",
+            "bounding_box": null,
+            "inner_text": ""
+          },
+          "scroll_x": 0,
+          "scroll_y": 1659
+        },
+        {
+          "type": "scroll",
+          "delay": 665,
+          "url": "http://sandbox.speck.sh/preview/3002b982-b896-4d05-9300-db27534bfec7/10ffbd3b-e034-4450-b4bb-0cf76b7d0df0/",
+          "target": {
+            "tag_name": "DOCUMENT",
+            "id": "",
+            "class_name": "",
+            "name": "",
+            "value": "",
+            "checked": false,
+            "xpath": "",
+            "css_selector": "",
+            "bounding_box": null,
+            "inner_text": ""
+          },
+          "scroll_x": 0,
+          "scroll_y": 1684
+        },
+        {
+          "type": "scroll",
+          "delay": 526,
+          "url": "http://sandbox.speck.sh/preview/3002b982-b896-4d05-9300-db27534bfec7/10ffbd3b-e034-4450-b4bb-0cf76b7d0df0/",
+          "target": {
+            "tag_name": "DOCUMENT",
+            "id": "",
+            "class_name": "",
+            "name": "",
+            "value": "",
+            "checked": false,
+            "xpath": "",
+            "css_selector": "",
+            "bounding_box": null,
+            "inner_text": ""
+          },
+          "scroll_x": 0,
+          "scroll_y": 1710
+        },
+        {
+          "type": "component_selection",
+          "delay": 7577,
+          "url": "http://sandbox.speck.sh/preview/3002b982-b896-4d05-9300-db27534bfec7/10ffbd3b-e034-4450-b4bb-0cf76b7d0df0/",
+          "target": {
+            "tag_name": "IMG",
+            "id": "",
+            "class_name": "chakra-image css-1ofqmpa",
+            "name": "",
+            "value": "",
+            "checked": false,
+            "xpath": "/html/body/div[1]/main/div/div/div[6]/div[2]/div[3]/img",
+            "css_selector": "body.chakra-ui-dark > div.css-zf0iqh:nth-child(1) > main:nth-child(2) > div.css-hac9ab > div.css-1m0co3j > div.css-1w9ehsk:nth-child(6) > div.css-53s268:nth-child(2) > div:nth-child(3) > img.chakra-image.css-1ofqmpa",
+            "bounding_box": null,
+            "inner_text": ""
+          },
+          "annotation": "This should be red",
+          "component": {
+            "component_name": null,
+            "file_path": "<[project]/app/components/home-panels/picture-section.tsx>",
+            "line_number": 107,
+            "no_component_info": false,
+            "html_tag": null,
+            "html_class_name": null,
+            "html_children": null,
+            "parents": [],
+            "description": null
+          }
+        },
+        {
+          "type": "terminate",
+          "delay": 2480,
+          "url": "http://sandbox.speck.sh/preview/3002b982-b896-4d05-9300-db27534bfec7/10ffbd3b-e034-4450-b4bb-0cf76b7d0df0/",
+          "target": {
+            "tag_name": "UNKNOWN",
+            "id": "",
+            "class_name": "",
+            "name": "",
+            "value": "",
+            "checked": false,
+            "xpath": "",
+            "css_selector": "",
+            "bounding_box": null,
+            "inner_text": ""
+          }
+        }
+      ],
+      "base_url": "http://sandbox.speck.sh/preview/3002b982-b896-4d05-9300-db27534bfec7/1be8bfe2-0ab6-4583-b674-e53ca403d714",
+      "initial_url": "http://sandbox.speck.sh/preview/3002b982-b896-4d05-9300-db27534bfec7/10ffbd3b-e034-4450-b4bb-0cf76b7d0df0/",
+      "duration": 17109,
+      "viewport_size": {
+        "width": 483,
+        "height": 1336
+      },
+      "console_logs": []
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+---
+title: "Introduction"
+description: "Get up and running with Speck, your AI frontend engineer."
+icon: "hand-wave"
+---
+
+<Note>
+  To use Speck you’ll need an active [Speck Pro](https://www.speck.sh/pricing)
+  subscription.
+</Note>
+
+Before you start, please note that Speck is currently available on <b>Mac</b>, and used mainly for <b>React</b> projects. If you use something else, please [contact us](mailto:founders@speck.sh)!
+
+## Installation:
+
+### Step 1: Download Speck
+
+You can download Speck [here](https://github.com/speckai/speck/releases/latest/download/Speck.dmg).
+
+### Step 2: Open Speck
+
+Once you've downloaded Speck, sign in with your Google account.
+
+<img
+  src="/images/screenshots/tutorial-login-page.png"
+  alt="Sign in with Google"
+/>
+
+### Step 3: Add your project
+
+Now that you are signed in, click "Add Directory" and add the folder where your React project is located.
+
+<img src="/images/screenshots/tutorial-add-repo.png" alt="Add Directory" />
+
+### Step 4: Add `@speckai/paige` npm package to your project
+
+Please follow these instructions to add the `@speckai/paige` npm package to your project. This will enable you to visually select components.
+
+1. Open your project in your IDE of choice (e.g. VSCode).
+2. Open a terminal in your project directory and run the following command:
+   <Tabs>
+   <Tab title="npm">
+
+```bash
+npm install @speckai/paige
+```
+
+</Tab>
+<Tab title="yarn">
+```bash
+yarn add @speckai/paige
+```
+</Tab>
+<Tab title="pnpm">
+```bash
+pnpm add @speckai/paige
+```
+</Tab>
+</Tabs>
+
+3. Add the following code to your project:
+   <Tabs>
+      <Tab title="Create React App">
+Add this to the component rendered in `index.tsx` file (e.g. `src/index.tsx`)
+
+```tsx
+ReactDOM.render(
+  <React.StrictMode>
+    <App />  <---- OPEN THIS COMPONENT'S FILE AND ADD THE FOLLOWING CODE
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+```
+
+Add this to your `App.tsx` file (e.g. `src/App.tsx`)
+
+```tsx
+import executeInDevMode from "@speckai/paige";
+import { useEffect } from "react";
+...
+export default function App() {
+    useEffect(() => {
+        executeInDevMode();
+    }, []);
+    ...
+}
+```
+
+</Tab>
+<Tab title="Next">
+Add this to your root `providers.tsx` file (e.g. `app/providers.tsx`) or to either the `app/_app.tsx` file or `app/layout.tsx` file.
+```jsx
+import executeInDevMode from "@speckai/paige";
+executeInDevMode();
+```
+</Tab>
+<Tab title="Remix">
+Add this to your `root.tsx` file (e.g. `app/root.tsx`)
+```jsx
+import executeInDevMode from "@speckai/paige";
+import { useEffect } from "react";
+...
+export default function App() {  // or whatever your component is called
+    useEffect(() => {
+        executeInDevMode();
+    }, []);
+    ...
+}
+```
+</Tab>
+</Tabs>
+
+---
+
+### Step 5: Open your project and edit the settings
+
+Click on the project you just added to open it in Paige.
+
+Click the settings button in the top left and make sure the settings are setup correctly.
+
+For example, if you use Next.js,
+
+```
+package_manager = pnpm
+port = 3000
+dev_command = pnpm next dev --port 3000
+```
+
+Once you have set up the settings, click save.
+
+### Step 6: Make a modification
+
+You are now ready to start making changes! You can either add context by typing in the message box, or select a component on the web view and describe the change you want to make.
+
+<img src="/images/screenshots/tutorial-paige-task.png" alt="Web view" />
+
+### Step 7: Submit your change
+
+Speck will now make the changes locally!
+
+<Note>
+  This app makes changes to your repo locally. Please back up your code with
+  git.
+</Note>
+
+Speck is automatically updated whenever you open the app. If you have any questions or encounter any issues, please reach out to us at founders@speck.sh

@@ -1,0 +1,62 @@
+[project]
+name = "speck-api"
+version = "1.0.0"
+description = "API for Speck"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "anthropic>=0.36.0",
+  "boto3>=1.35.90",
+  "cryptography>=43.0.1",
+  "dict2xml>=1.7.6",
+  "fastapi[standard]>=0.115.2",
+  "google-generativeai>=0.8.3",
+  "instructor>=1.7.2",
+  "logtail-python>=0.3.1",
+  "loguru>=0.7.2",
+  "openai>=1.54.3",
+  "psutil>=6.0.0",
+  "pydantic>=2.9.2",
+  "pygithub>=2.4.0",
+  "pyjwt>=2.9.0",
+  "pymongo>=4.10.1",
+  "python-dotenv>=1.0.1",
+  "python-socketio>=5.11.4",
+  "resend>=2.4.0",
+  "slowapi>=0.1.9",
+  "uvicorn[standard]>=0.31.1",
+  "qdrant-client>=1.12.2",
+  "tiktoken>=0.8.0",
+  "supabase>=2.10.0",
+  "scipy>=1.14.1",
+  "opencv-python>=4.10.0.84",
+  "playwright>=1.49.1",
+  "pillow>=11.0.0",
+  "llmxml>=0.4.4",
+  "stripe>=11.5.0",
+  "redis[hiredis]>=5.2.1",
+  "aioredis>=2.0.1",
+  "groq>=0.18.0",
+  "pathspec>=0.12.1",
+  "esprima>=4.0.1",
+  "helicone-helpers>=1.0.0",
+  "joblib>=1.4.2",
+  "aioboto3>=14.1.0",
+  "google-genai>=1.2.0",
+  "chardet>=5.2.0",
+  "morphcloud>=0.1.32",
+]
+
+[dependency-groups]
+dev = ["ipykernel>=6.29.5", "nest-asyncio>=1.6.0", "pyobjc>=11.0"]
+
+[project.optional-dependencies]
+dev = [
+  "nbstripout>=0.8.1",
+  "ipykernel>=6.29.5",
+  "pyobjc>=11.0",
+  "ipython>=9.0.1",
+  "pytest>=8.3.3",
+  "black>=24.10.0",
+  "pre-commit>=4.1.0",
+]

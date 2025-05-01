@@ -1,0 +1,189 @@
+replicaCount: 3
+
+image:
+  repository: docker.io/qdrant/qdrant
+  pullPolicy: IfNotPresent
+  tag: ""
+  useUnprivilegedImage: false
+
+imagePullSecrets: []
+nameOverride: ""
+fullnameOverride: ""
+args: ["./config/initialize.sh"]
+env: {}
+
+service:
+  type: LoadBalancer
+  additionalLabels: {}
+  annotations: {}
+  loadBalancerIP: ""
+  ports:
+    - name: http
+      port: 6333
+      targetPort: 6333
+      protocol: TCP
+      checksEnabled: true
+    - name: grpc
+      port: 6334
+      targetPort: 6334
+      protocol: TCP
+      checksEnabled: false
+    - name: p2p
+      port: 6335
+      targetPort: 6335
+      protocol: TCP
+      checksEnabled: false
+
+ingress:
+  enabled: false
+  ingressClassName: ""
+  additionalLabels: {}
+  annotations: {}
+  hosts:
+    - host: api.speck.sh
+      paths:
+        - path: /
+          pathType: Prefix
+          servicePort: 6333
+    - host: localhost
+      paths:
+        - path: /
+          pathType: Prefix
+          servicePort: 6333
+  tls: []
+
+livenessProbe:
+  enabled: false
+  initialDelaySeconds: 5
+  periodSeconds: 5
+  timeoutSeconds: 1
+  failureThreshold: 6
+  successThreshold: 1
+
+readinessProbe:
+  enabled: true
+  initialDelaySeconds: 5
+  periodSeconds: 5
+  timeoutSeconds: 1
+  failureThreshold: 6
+  successThreshold: 1
+
+startupProbe:
+  enabled: false
+  initialDelaySeconds: 10
+  periodSeconds: 5
+  timeoutSeconds: 1
+  failureThreshold: 30
+  successThreshold: 1
+
+additionalLabels: {}
+podAnnotations: {}
+podLabels: {}
+
+resources:
+  requests:
+    cpu: 2
+    memory: 8Gi
+  limits:
+    cpu: 4
+    memory: 12Gi
+
+containerSecurityContext:
+  runAsNonRoot: true
+  runAsUser: 1000
+  runAsGroup: 2000
+  allowPrivilegeEscalation: false
+  privileged: false
+  readOnlyRootFilesystem: true
+
+podSecurityContext:
+  fsGroup: 3000
+  fsGroupChangePolicy: Always
+
+lifecycle:
+  preStop:
+    exec:
+      # Pause before shutdown to allow in-flight requests to complete.
+      command: ["sleep", "3"]
+
+updateVolumeFsOwnership: true
+
+nodeSelector: {}
+
+tolerations:
+  - key: "qdrant-node"
+    operator: "Exists"
+    effect: "NoSchedule"
+
+affinity:
+  nodeAffinity:
+    requiredDuringSchedulingIgnoredDuringExecution:
+      nodeSelectorTerms:
+        - matchExpressions:
+            - key: agentpool
+              operator: In
+              values:
+                - qdrant
+
+topologySpreadConstraints: []
+
+persistence:
+  accessModes: ["ReadWriteOnce"]
+  size: 10Gi
+  annotations: {}
+
+snapshotPersistence:
+  enabled: false
+  accessModes: ["ReadWriteOnce"]
+  size: 10Gi
+  annotations: {}
+
+snapshotRestoration:
+  enabled: false
+  # To restore from a PVC or mount external snapshots, adjust these below:
+  pvcName: snapshots-pvc
+  mountPath: /qdrant/snapshot-restoration
+  snapshots: []
+
+sidecarContainers: []
+
+metrics:
+  serviceMonitor:
+    enabled: false
+    additionalLabels: {}
+    scrapeInterval: 30s
+    scrapeTimeout: 10s
+    targetPort: http
+    targetPath: "/metrics"
+    metricRelabelings: []
+    relabelings: []
+
+serviceAccount:
+  annotations: {}
+
+priorityClassName: ""
+
+shareProcessNamespace: false
+
+podManagementPolicy: Parallel
+
+podDisruptionBudget:
+  enabled: true
+  maxUnavailable: 1
+  unhealthyPodEvictionPolicy: ""
+
+additionalVolumes: []
+additionalVolumeMounts: []
+
+config:
+  service:
+    http_port: 6333
+    grpc_port: 6334
+  cluster:
+    enabled: true
+    p2p:
+      port: 6335
+    consensus:
+      tick_period_ms: 100
+
+apiKey: true

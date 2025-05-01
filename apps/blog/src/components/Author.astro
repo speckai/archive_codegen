@@ -1,0 +1,17 @@
+---
+const { author } = Astro.props;
+
+const authorImages = {
+  "Raghav Pillai": "/headshots/raghav.png",
+  "Lucas Jaggernauth": "/headshots/lucas.png",
+};
+---
+
+<div class="flex items-center">
+  <img
+    src={authorImages[author]}
+    alt={author}
+    class="w-6 h-6 rounded-full mr-2"
+  />
+  <p class="text-sm my-auto">{author}</p>
+</div>

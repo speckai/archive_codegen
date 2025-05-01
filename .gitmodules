@@ -1,0 +1,9 @@
+[submodule "packages/llmxml"]
+	path = packages/llmxml
+	url = https://github.com/speckai/llmxml.git
+[submodule "apps/api/tests/eval_repos/issue-tracker-eval-repo"]
+	path = apps/api/tests/eval_repos/issue-tracker-eval-repo
+	url = https://github.com/speckai/issue-tracker-eval-repo.git
+[submodule "apps/api/tests/eval_repos/computer-repair-shop-eval-repo"]
+	path = apps/api/tests/eval_repos/computer-repair-shop-eval-repo
+	url = https://github.com/speckai/computer-repair-shop-eval-repo.git

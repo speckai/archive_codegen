@@ -1,0 +1,212 @@
+{
+  "id": "3380f15c-2418-4403-9f55-d0555cd336ed",
+  "name": "Recording 05:21 PM",
+  "annotation": "sdfsdfsd",
+  "events": [
+    {
+      "type": "click",
+      "delay": 0,
+      "url": "http://sandbox.speck.sh/login",
+      "target": {
+        "tag_name": "BUTTON",
+        "id": "",
+        "class_name": "chakra-button css-4mydf9",
+        "name": "",
+        "value": "",
+        "checked": false,
+        "xpath": "/html/body/div[1]/div/div[2]/button",
+        "css_selector": "body.__variable_1e4310.__variable_c3aa02.chakra-ui-dark > div.css-191fh0c:nth-child(1) > div.chakra-stack.css-qa1fvv:nth-child(2) > div.chakra-stack.css-1hfflji:nth-child(3) > button.chakra-button.css-4mydf9[type=\"button\"]:nth-child(2)",
+        "bounding_box": {
+          "min_x": 1019.0972900390625,
+          "min_y": 789.80908203125,
+          "max_x": 1102.0139617919922,
+          "max_y": 821.8056106567383,
+          "width": 82.91667175292969,
+          "height": 31.99652862548828,
+          "center_x": 1060.5556259155273,
+          "center_y": 805.8073463439941
+        },
+        "inner_text": "Login"
+      },
+      "button": 0
+    },
+    {
+      "type": "screenshot",
+      "delay": 7579,
+      "url": "http://sandbox.speck.sh/login",
+      "target": {
+        "tag_name": "UNKNOWN",
+        "id": "",
+        "class_name": "",
+        "name": "",
+        "value": "",
+        "checked": false,
+        "xpath": "",
+        "css_selector": "",
+        "bounding_box": null,
+        "inner_text": ""
+      },
+      "annotation": "sdfsd",
+      "viewport_size": { "width": 1413, "height": 1416 },
+      "scroll_position": { "x": 0, "y": 0 }
+    },
+    {
+      "type": "terminate",
+      "delay": 1214,
+      "url": "http://sandbox.speck.sh/login",
+      "target": {
+        "tag_name": "UNKNOWN",
+        "id": "",
+        "class_name": "",
+        "name": "",
+        "value": "",
+        "checked": false,
+        "xpath": "",
+        "css_selector": "",
+        "bounding_box": null,
+        "inner_text": ""
+      }
+    }
+  ],
+  "base_url": "http://sandbox.speck.sh/preview/6f11f0d5-3409-4a6c-8ace-f7f44725ec64/451c677c-08f5-4fd5-808a-68b8a12f4126",
+  "initial_url": "http://sandbox.speck.sh/login",
+  "duration": 13797,
+  "viewport_size": { "width": 1413, "height": 1416 },
+  "console_logs": [
+    {
+      "timestamp": 5005,
+      "level": "error",
+      "output": "Fetch error: undefined/user/@rag_pil returned 404",
+      "traceback": [
+        "Error: HTTP error! status: 404",
+        "at async handleGetUserInfo (webpack-internal:///(app-pages-browser)/./app/login/page.tsx:64:34)"
+      ]
+    },
+    {
+      "timestamp": 5714,
+      "level": "error",
+      "output": "HTTP error! status: 404",
+      "traceback": [
+        "Error: HTTP error! status: 404",
+        "at handleGetUserInfo (webpack-internal:///(app-pages-browser)/./app/login/page.tsx:66:27)"
+      ]
+    },
+    {
+      "timestamp": 5715,
+      "level": "error",
+      "output": "HTTP error! status: 404",
+      "traceback": [
+        "Error: HTTP error! status: 404",
+        "at handleGetUserInfo (webpack-internal:///(app-pages-browser)/./app/login/page.tsx:66:27)"
+      ]
+    },
+    {
+      "timestamp": 7771,
+      "level": "debug",
+      "output": "#1 0ms Starting document clone with size 1413x1416 scrolled to 0,0",
+      "traceback": [
+        "at Ns.debug (https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:191994)",
+        "at https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:194457",
+        "at https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:1976",
+        "at Object.next (https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:2081)",
+        "at https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:1023",
+        "at new Promise (<anonymous>)",
+        "at a (https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:774)",
+        "at Js (https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:193323)",
+        "at https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:196597",
+        "at HTMLScriptElement.takeScreenshot (http://localhost:8080/client_scripts/devtools.js:232:9)"
+      ]
+    },
+    {
+      "timestamp": 7772,
+      "level": "debug",
+      "output": "#1 0ms Starting document clone with size 1413x1416 scrolled to 0,0",
+      "traceback": [
+        "at Ns.debug (https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:191994)",
+        "at https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:194457",
+        "at https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:1976",
+        "at Object.next (https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:2081)",
+        "at https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:1023",
+        "at new Promise (<anonymous>)",
+        "at a (https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:774)",
+        "at Js (https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:193323)",
+        "at https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:196597",
+        "at HTMLScriptElement.takeScreenshot (http://localhost:8080/client_scripts/devtools.js:232:9)"
+      ]
+    },
+    {
+      "timestamp": 8322,
+      "level": "debug",
+      "output": "#1 552ms Document cloned, using foreign object rendering",
+      "traceback": [
+        "at Ns.debug (https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:191994)",
+        "at https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:195526",
+        "at https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:1976",
+        "at Object.next (https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:2081)",
+        "at r (https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:828)"
+      ]
+    },
+    {
+      "timestamp": 8322,
+      "level": "debug",
+      "output": "#1 552ms Document cloned, using foreign object rendering",
+      "traceback": [
+        "at Ns.debug (https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:191994)",
+        "at https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:195526",
+        "at https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:1976",
+        "at Object.next (https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:2081)",
+        "at r (https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:828)"
+      ]
+    },
+    {
+      "timestamp": 8324,
+      "level": "debug",
+      "output": "#1 554ms EXPERIMENTAL ForeignObject renderer initialized (1413x1417 at 0,0) with scale 2",
+      "traceback": [
+        "at Ns.debug (https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:191994)",
+        "at new Vs (https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:191459)",
+        "at https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:195586",
+        "at https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:1976",
+        "at Object.next (https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:2081)",
+        "at r (https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:828)"
+      ]
+    },
+    {
+      "timestamp": 8324,
+      "level": "debug",
+      "output": "#1 554ms EXPERIMENTAL ForeignObject renderer initialized (1413x1417 at 0,0) with scale 2",
+      "traceback": [
+        "at Ns.debug (https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:191994)",
+        "at new Vs (https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:191459)",
+        "at https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:195586",
+        "at https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:1976",
+        "at Object.next (https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:2081)",
+        "at r (https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:828)"
+      ]
+    },
+    {
+      "timestamp": 8906,
+      "level": "debug",
+      "output": "#1 1136ms Finished rendering",
+      "traceback": [
+        "at Ns.debug (https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:191994)",
+        "at https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:196210",
+        "at https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:1976",
+        "at Object.next (https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:2081)",
+        "at r (https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:828)"
+      ]
+    },
+    {
+      "timestamp": 8906,
+      "level": "debug",
+      "output": "#1 1136ms Finished rendering",
+      "traceback": [
+        "at Ns.debug (https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:191994)",
+        "at https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:196210",
+        "at https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:1976",
+        "at Object.next (https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:2081)",
+        "at r (https://html2canvas.hertzen.com/dist/html2canvas.min.js:20:828)"
+      ]
+    }
+  ]
+}

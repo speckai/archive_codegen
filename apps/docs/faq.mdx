@@ -1,0 +1,26 @@
+---
+title: "FAQ"
+description: "Frequently asked questions about Speck errors."
+---
+
+### How is this different than other observability platforms?
+
+Speck is focused on improving developer iteration speed for LLM apps. We believe that being able to work with your prompts faster is far more beneficial than waiting for an error to occur then fixing retroactively. Although we do support LLM observability, we would like to start supporting LLM apps in their early stages to get something off the ground fast.
+
+---
+
+## Technical Questions
+
+### SSL Certificate Error (`CERTIFICATE_VERIFY_FAILED`)
+
+When encountering this error, it is likely that you have not installed the certificates python package yet. If you are using macOS and installed Python via the official installer, you can install the package by running the `Install Certificates.command` script, which is located in the Python folder in your Applications directory.
+
+### Calling Other Models
+
+If you would like to call other models other than OpenAI, you can do so by first including the API key for the provider like so:
+
+```python
+client = Speck(..., api_keys={..., "provider": "api_key_here"})
+```
+
+Then, you can change the model to "provider:model". For example, to run Claude 2, do "anthropic:claude-2".

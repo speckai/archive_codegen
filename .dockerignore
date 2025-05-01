@@ -1,0 +1,12 @@
+# .dockerignore
+
+*.pyc
+__pycache__/
+.env
+.env*
+node_modules/
+records/
+.git
+.gitignore
+.venv/
+venv/

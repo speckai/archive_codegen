@@ -1,0 +1,11 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+
+# Shell rules
+Use pnpm instead of npm for installations
+
+# Component creation
+When creating components, you are the put any components >50 lines in their own files. 

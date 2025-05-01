@@ -1,0 +1,12 @@
+[project]
+name = "shortbox"
+version = "1.0.0"
+description = "Ephemeral sandboxes for LLM agents"
+readme = "README.md"
+requires-python = ">=3.12"
+
+dependencies = ["fastapi-socketio>=0.0.10", "aiohttp>=3.10.0"]
+
+
+[tool.setuptools]
+packages = ["shortbox"]

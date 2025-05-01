@@ -1,0 +1,10 @@
+[project]
+name = "types"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["pydantic>=2.9.2", "pydantic2zod"]
+
+[tool.uv.sources]
+pydantic2zod = { git = "https://github.com/argyle-engineering/pydantic2zod" }

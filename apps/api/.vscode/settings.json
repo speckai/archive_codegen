@@ -1,0 +1,12 @@
+{
+  "editor.defaultFormatter": "charliermarsh.ruff",
+  "editor.formatOnSave": true,
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportOptionalMemberAccess": "none",
+    "reportAssignmentType": "none",
+    "reportArgumentType": "none",
+    "reportUnspecifiedEncodingCall": "none"
+  },
+  "jupyter.notebookFileRoot": "${workspaceFolder}"
+}

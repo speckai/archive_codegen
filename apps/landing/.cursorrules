@@ -1,0 +1,3 @@
+Use snake-case for file names, and camelCase for variable names.
+
+We use `bun` as our package manager. For executing, use `bun x`.

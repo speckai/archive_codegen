@@ -1,0 +1,6 @@
+---
+description: 
+globs: .cursor/**
+alwaysApply: false
+---
+[CLAUDE.md](mdc:CLAUDE.md)

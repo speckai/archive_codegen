@@ -1,0 +1,31 @@
+---
+import Author from "./Author.astro";
+import FormattedDate from "./FormattedDate.astro";
+
+const { slug, data } = Astro.props;
+const { title, heroImage, pubDate, author } = data;
+---
+
+<div class="mb-8 group">
+  <a
+    href={`/page/${slug}/`}
+    class="block transition-all duration-300 ease-in-out hover:opacity-90"
+  >
+    <div class="overflow-hidden rounded-lg shadow-md">
+      <img
+        width={720}
+        height={360}
+        src={heroImage}
+        alt=""
+        class="w-full h-48 object-cover transition-transform duration-300 ease-in-out group-hover:scale-110"
+      />
+    </div>
+    <div class="px-2">
+      <h4 class="text-xl font-semibold mt-4 text-white">{title}</h4>
+      <p class="text-gray-400 mt-2">
+        <FormattedDate date={pubDate} />
+        <Author author={author} />
+      </p>
+    </div>
+  </a>
+</div>

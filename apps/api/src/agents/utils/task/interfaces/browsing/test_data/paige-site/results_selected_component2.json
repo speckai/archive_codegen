@@ -1,0 +1,332 @@
+{
+  "id": "8ddc4298-38ef-479e-8f66-c79efaf2ebac",
+  "name": "Recording 09:05 PM",
+  "annotation": "",
+  "events": [
+    {
+      "type": "scroll",
+      "delay": 1226,
+      "url": "http://sandbox.speck.sh/preview/6f11f0d5-3409-4a6c-8ace-f7f44725ec64/56426d97-c979-4fb1-9a9a-46d4d27c6124/",
+      "target": {
+        "tag_name": "DOCUMENT",
+        "id": "",
+        "class_name": "",
+        "name": "",
+        "value": "",
+        "checked": false,
+        "xpath": "",
+        "css_selector": "",
+        "bounding_box": null,
+        "inner_text": ""
+      },
+      "scroll_x": 0,
+      "scroll_y": 0
+    },
+    {
+      "type": "scroll",
+      "delay": 2697,
+      "url": "http://sandbox.speck.sh/preview/6f11f0d5-3409-4a6c-8ace-f7f44725ec64/56426d97-c979-4fb1-9a9a-46d4d27c6124/",
+      "target": {
+        "tag_name": "DOCUMENT",
+        "id": "",
+        "class_name": "",
+        "name": "",
+        "value": "",
+        "checked": false,
+        "xpath": "",
+        "css_selector": "",
+        "bounding_box": null,
+        "inner_text": ""
+      },
+      "scroll_x": 0,
+      "scroll_y": 2833
+    },
+    {
+      "type": "screenshot",
+      "delay": 14214,
+      "url": "http://sandbox.speck.sh/preview/6f11f0d5-3409-4a6c-8ace-f7f44725ec64/56426d97-c979-4fb1-9a9a-46d4d27c6124/",
+      "target": {
+        "tag_name": "UNKNOWN",
+        "id": "",
+        "class_name": "",
+        "name": "",
+        "value": "",
+        "checked": false,
+        "xpath": "",
+        "css_selector": "",
+        "bounding_box": null,
+        "inner_text": ""
+      },
+      "annotation": "the cards on the right are overlapping when there should be a gap",
+      "viewport_size": { "width": 2065, "height": 1416 },
+      "scroll_position": { "x": 0, "y": 2833 }
+    },
+    {
+      "type": "terminate",
+      "delay": 1435,
+      "url": "http://sandbox.speck.sh/preview/6f11f0d5-3409-4a6c-8ace-f7f44725ec64/56426d97-c979-4fb1-9a9a-46d4d27c6124/",
+      "target": {
+        "tag_name": "UNKNOWN",
+        "id": "",
+        "class_name": "",
+        "name": "",
+        "value": "",
+        "checked": false,
+        "xpath": "",
+        "css_selector": "",
+        "bounding_box": null,
+        "inner_text": ""
+      }
+    }
+  ],
+  "base_url": "http://sandbox.speck.sh/preview/6f11f0d5-3409-4a6c-8ace-f7f44725ec64/56426d97-c979-4fb1-9a9a-46d4d27c6124",
+  "initial_url": "http://sandbox.speck.sh/preview/6f11f0d5-3409-4a6c-8ace-f7f44725ec64/56426d97-c979-4fb1-9a9a-46d4d27c6124/",
+  "duration": 20471,
+  "viewport_size": { "width": 2065, "height": 1416 },
+  "console_logs": [
+    {
+      "timestamp": 1108,
+      "level": "error",
+      "output": "[PostHog.js] PostHog was initialized without a token. This likely indicates a misconfiguration. Please check the first argument passed to posthog.init() \n    at Lazy\n    at RedirectErrorBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7961:9)\n    at RedirectBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7969:11)\n    at NotFoundErrorBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7558:9)\n    at NotFoundBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7566:11)\n    at DevRootNotFoundBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7620:11)\n    at ReactDevOverlay (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:5971:9)\n    at HotReload (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7400:11)\n    at Router (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:9014:11)\n    at ErrorBoundaryHandler (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:8564:9)\n    at ErrorBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:8593:11)\n    at AppRouter (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:9287:13)\n    at ServerRoot (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:11361:11)\n    at RSCComponent\n    at Root (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:11371:11)",
+      "traceback": [
+        "at console.overrideMethod (http://localhost:8080/client_scripts/devtools.js:17817:32)",
+        "at push.[project]/node_modules/next/dist/client/app-index.js [app-client] (ecmascript).window.console.error (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:11269:22)",
+        "at console.error (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:6033:14)",
+        "at Object.critical (http://sandbox.speck.sh/_next/static/chunks/node_modules_posthog-js_73bf1d._.js:87:21)",
+        "at Co._init (http://sandbox.speck.sh/_next/static/chunks/node_modules_posthog-js_73bf1d._.js:5199:36)",
+        "at Co.init (http://sandbox.speck.sh/_next/static/chunks/node_modules_posthog-js_73bf1d._.js:5195:21)",
+        "at http://sandbox.speck.sh/_next/static/chunks/app_a1c625._.js:1400:163",
+        "at [project]/app/providers.tsx [app-client] (ecmascript) (http://sandbox.speck.sh/_next/static/chunks/app_a1c625._.js:1461:3)",
+        "at http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_esm_build_templates_app-page_a5ba7a.js?v=1742097899014:474:27",
+        "at runModuleExecutionHooks (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_esm_build_templates_app-page_a5ba7a.js?v=1742097899014:513:9)",
+        "at instantiateModule (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_esm_build_templates_app-page_a5ba7a.js?v=1742097899014:473:9)",
+        "at getOrInstantiateModuleFromParent (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_esm_build_templates_app-page_a5ba7a.js?v=1742097899014:545:12)",
+        "at commonJsRequire (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_esm_build_templates_app-page_a5ba7a.js?v=1742097899014:133:20)",
+        "at requireModule (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_16d15d._.js?v=1742097899014:2406:33)",
+        "at initializeModuleChunk (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_16d15d._.js?v=1742097899014:3351:29)",
+        "at readChunk (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_16d15d._.js?v=1742097899014:3195:21)",
+        "at mountLazyComponent (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:14498:29)",
+        "at beginWork$1 (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:15894:32)",
+        "at beginWork (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:22731:28)",
+        "at performUnitOfWork (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:21794:24)",
+        "at workLoopConcurrent (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:21782:17)",
+        "at renderRootConcurrent (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:21750:25)",
+        "at performConcurrentWorkOnRoot (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:20783:48)",
+        "at workLoop (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_16d15d._.js?v=1742097899014:1958:48)",
+        "at flushWork (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_16d15d._.js?v=1742097899014:1936:28)",
+        "at MessagePort.performWorkUntilDeadline (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_16d15d._.js?v=1742097899014:2169:35)"
+      ]
+    },
+    {
+      "timestamp": 1108,
+      "level": "error",
+      "output": "[PostHog.js] PostHog was initialized without a token. This likely indicates a misconfiguration. Please check the first argument passed to posthog.init() \n    at Lazy\n    at RedirectErrorBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7961:9)\n    at RedirectBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7969:11)\n    at NotFoundErrorBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7558:9)\n    at NotFoundBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7566:11)\n    at DevRootNotFoundBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7620:11)\n    at ReactDevOverlay (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:5971:9)\n    at HotReload (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7400:11)\n    at Router (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:9014:11)\n    at ErrorBoundaryHandler (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:8564:9)\n    at ErrorBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:8593:11)\n    at AppRouter (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:9287:13)\n    at ServerRoot (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:11361:11)\n    at RSCComponent\n    at Root (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:11371:11)",
+      "traceback": [
+        "at console.overrideMethod (http://localhost:8080/client_scripts/devtools.js:17817:32)",
+        "at push.[project]/node_modules/next/dist/client/app-index.js [app-client] (ecmascript).window.console.error (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:11269:22)",
+        "at console.error (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:6033:14)",
+        "at Object.critical (http://sandbox.speck.sh/_next/static/chunks/node_modules_posthog-js_73bf1d._.js:87:21)",
+        "at Co._init (http://sandbox.speck.sh/_next/static/chunks/node_modules_posthog-js_73bf1d._.js:5199:36)",
+        "at Co.init (http://sandbox.speck.sh/_next/static/chunks/node_modules_posthog-js_73bf1d._.js:5195:21)",
+        "at http://sandbox.speck.sh/_next/static/chunks/app_a1c625._.js:1400:163",
+        "at [project]/app/providers.tsx [app-client] (ecmascript) (http://sandbox.speck.sh/_next/static/chunks/app_a1c625._.js:1461:3)",
+        "at http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_esm_build_templates_app-page_a5ba7a.js?v=1742097899014:474:27",
+        "at runModuleExecutionHooks (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_esm_build_templates_app-page_a5ba7a.js?v=1742097899014:513:9)",
+        "at instantiateModule (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_esm_build_templates_app-page_a5ba7a.js?v=1742097899014:473:9)",
+        "at getOrInstantiateModuleFromParent (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_esm_build_templates_app-page_a5ba7a.js?v=1742097899014:545:12)",
+        "at commonJsRequire (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_esm_build_templates_app-page_a5ba7a.js?v=1742097899014:133:20)",
+        "at requireModule (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_16d15d._.js?v=1742097899014:2406:33)",
+        "at initializeModuleChunk (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_16d15d._.js?v=1742097899014:3351:29)",
+        "at readChunk (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_16d15d._.js?v=1742097899014:3195:21)",
+        "at mountLazyComponent (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:14498:29)",
+        "at beginWork$1 (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:15894:32)",
+        "at beginWork (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:22731:28)",
+        "at performUnitOfWork (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:21794:24)",
+        "at workLoopConcurrent (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:21782:17)",
+        "at renderRootConcurrent (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:21750:25)",
+        "at performConcurrentWorkOnRoot (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:20783:48)",
+        "at workLoop (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_16d15d._.js?v=1742097899014:1958:48)",
+        "at flushWork (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_16d15d._.js?v=1742097899014:1936:28)",
+        "at MessagePort.performWorkUntilDeadline (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_16d15d._.js?v=1742097899014:2169:35)"
+      ]
+    },
+    {
+      "timestamp": 1182,
+      "level": "error",
+      "output": "Warning: Expected server HTML to contain a matching <%s> in <%s>.%s video div \n    at video\n    at div\n    at http://sandbox.speck.sh/_next/static/chunks/node_modules_6508f6._.js:3582:192\n    at ChakraComponent2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:412:17)\n    at Flex2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:14757:13)\n    at div\n    at http://sandbox.speck.sh/_next/static/chunks/node_modules_6508f6._.js:3582:192\n    at ChakraComponent2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:412:17)\n    at http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:7004:13\n    at VStack\n    at div\n    at http://sandbox.speck.sh/_next/static/chunks/node_modules_6508f6._.js:3582:192\n    at ChakraComponent2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:412:17)\n    at Flex2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:14757:13)\n    at div\n    at http://sandbox.speck.sh/_next/static/chunks/node_modules_6508f6._.js:3582:192\n    at ChakraComponent2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:412:17)\n    at div\n    at http://sandbox.speck.sh/_next/static/chunks/node_modules_6508f6._.js:3582:192\n    at ChakraComponent2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:412:17)\n    at ProcessScrolling (http://sandbox.speck.sh/_next/static/chunks/app_4d4b44._.js:1154:190)\n    at div\n    at http://sandbox.speck.sh/_next/static/chunks/node_modules_6508f6._.js:3582:192\n    at ChakraComponent2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:412:17)\n    at http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:7004:13\n    at VStack\n    at div\n    at MotionComponent (http://sandbox.speck.sh/_next/static/chunks/node_modules_framer-motion_dist_es_05b406._.js:11370:187)\n    at CreateWorkflow\n    at div\n    at http://sandbox.speck.sh/_next/static/chunks/node_modules_6508f6._.js:3582:192\n    at ChakraComponent2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:412:17)\n    at Flex2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:14757:13)\n    at div\n    at http://sandbox.speck.sh/_next/static/chunks/node_modules_6508f6._.js:3582:192\n    at ChakraComponent2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:412:17)\n    at Home\n    at StaticGenerationSearchParamsBailoutProvider (http://sandbox.speck.sh/_next/static/chunks/node_modules_9871bb._.js:3005:11)\n    at InnerLayoutRouter (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_cbd101._.js:11361:11)\n    at RedirectErrorBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7961:9)\n    at RedirectBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7969:11)\n    at NotFoundErrorBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7558:9)\n    at NotFoundBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7566:11)\n    at LoadingBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_cbd101._.js:11457:11)\n    at ErrorBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:8593:11)\n    at InnerScrollAndFocusHandler (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_cbd101._.js:11273:9)\n    at ScrollAndFocusHandler (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_cbd101._.js:11348:11)\n    at RenderFromTemplateContext (http://sandbox.speck.sh/_next/static/chunks/node_modules_860c4b._.js:2889:44)\n    at OuterLayoutRouter (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_cbd101._.js:11466:11)\n    at main\n    at div\n    at http://sandbox.speck.sh/_next/static/chunks/node_modules_6508f6._.js:3582:192\n    at ChakraComponent2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:412:17)\n    at Flex2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:14757:13)\n    at EnvironmentProvider (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:8636:13)\n    at ColorModeProvider2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:227:13)\n    at ThemeProvider (http://sandbox.speck.sh/_next/static/chunks/node_modules_6508f6._.js:3611:175)\n    at ThemeProvider (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:633:13)\n    at Provider (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:17884:13)\n    at ChakraProvider (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:17927:38)\n    at CacheProvider (http://sandbox.speck.sh/_next/static/chunks/node_modules_6508f6._.js:14819:26)\n    at PostHogProvider (http://sandbox.speck.sh/_next/static/chunks/node_modules_posthog-js_73bf1d._.js:5846:23)\n    at Providers (http://sandbox.speck.sh/_next/static/chunks/app_a1c625._.js:1405:22)\n    at body\n    at html\n    at RedirectErrorBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7961:9)\n    at RedirectBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7969:11)\n    at NotFoundErrorBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7558:9)\n    at NotFoundBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7566:11)\n    at DevRootNotFoundBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7620:11)\n    at ReactDevOverlay (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:5971:9)\n    at HotReload (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7400:11)\n    at Router (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:9014:11)\n    at ErrorBoundaryHandler (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:8564:9)\n    at ErrorBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:8593:11)\n    at AppRouter (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:9287:13)\n    at ServerRoot (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:11361:11)\n    at RSCComponent\n    at Root (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:11371:11)",
+      "traceback": [
+        "at console.overrideMethod (http://localhost:8080/client_scripts/devtools.js:17817:32)",
+        "at push.[project]/node_modules/next/dist/client/app-index.js [app-client] (ecmascript).window.console.error (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:11269:22)",
+        "at console.error (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:6033:14)",
+        "at printWarning (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:80:42)",
+        "at error (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:58:21)",
+        "at warnForInsertedHydratedElement (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:29552:17)",
+        "at didNotFindHydratableInstance (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:30503:21)",
+        "at warnNonhydratedInstance (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:6438:41)",
+        "at tryToClaimNextHydratableInstance (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:6563:21)",
+        "at updateHostComponent$1 (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:14391:17)",
+        "at beginWork$1 (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:15923:28)",
+        "at beginWork (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:22731:28)",
+        "at performUnitOfWork (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:21794:24)",
+        "at workLoopConcurrent (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:21782:17)",
+        "at renderRootConcurrent (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:21750:25)",
+        "at performConcurrentWorkOnRoot (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:20783:48)",
+        "at workLoop (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_16d15d._.js?v=1742097899014:1958:48)",
+        "at flushWork (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_16d15d._.js?v=1742097899014:1936:28)",
+        "at MessagePort.performWorkUntilDeadline (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_16d15d._.js?v=1742097899014:2169:35)"
+      ]
+    },
+    {
+      "timestamp": 1182,
+      "level": "error",
+      "output": "Warning: Expected server HTML to contain a matching <%s> in <%s>.%s video div \n    at video\n    at div\n    at http://sandbox.speck.sh/_next/static/chunks/node_modules_6508f6._.js:3582:192\n    at ChakraComponent2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:412:17)\n    at Flex2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:14757:13)\n    at div\n    at http://sandbox.speck.sh/_next/static/chunks/node_modules_6508f6._.js:3582:192\n    at ChakraComponent2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:412:17)\n    at http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:7004:13\n    at VStack\n    at div\n    at http://sandbox.speck.sh/_next/static/chunks/node_modules_6508f6._.js:3582:192\n    at ChakraComponent2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:412:17)\n    at Flex2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:14757:13)\n    at div\n    at http://sandbox.speck.sh/_next/static/chunks/node_modules_6508f6._.js:3582:192\n    at ChakraComponent2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:412:17)\n    at div\n    at http://sandbox.speck.sh/_next/static/chunks/node_modules_6508f6._.js:3582:192\n    at ChakraComponent2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:412:17)\n    at ProcessScrolling (http://sandbox.speck.sh/_next/static/chunks/app_4d4b44._.js:1154:190)\n    at div\n    at http://sandbox.speck.sh/_next/static/chunks/node_modules_6508f6._.js:3582:192\n    at ChakraComponent2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:412:17)\n    at http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:7004:13\n    at VStack\n    at div\n    at MotionComponent (http://sandbox.speck.sh/_next/static/chunks/node_modules_framer-motion_dist_es_05b406._.js:11370:187)\n    at CreateWorkflow\n    at div\n    at http://sandbox.speck.sh/_next/static/chunks/node_modules_6508f6._.js:3582:192\n    at ChakraComponent2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:412:17)\n    at Flex2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:14757:13)\n    at div\n    at http://sandbox.speck.sh/_next/static/chunks/node_modules_6508f6._.js:3582:192\n    at ChakraComponent2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:412:17)\n    at Home\n    at StaticGenerationSearchParamsBailoutProvider (http://sandbox.speck.sh/_next/static/chunks/node_modules_9871bb._.js:3005:11)\n    at InnerLayoutRouter (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_cbd101._.js:11361:11)\n    at RedirectErrorBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7961:9)\n    at RedirectBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7969:11)\n    at NotFoundErrorBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7558:9)\n    at NotFoundBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7566:11)\n    at LoadingBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_cbd101._.js:11457:11)\n    at ErrorBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:8593:11)\n    at InnerScrollAndFocusHandler (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_cbd101._.js:11273:9)\n    at ScrollAndFocusHandler (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_cbd101._.js:11348:11)\n    at RenderFromTemplateContext (http://sandbox.speck.sh/_next/static/chunks/node_modules_860c4b._.js:2889:44)\n    at OuterLayoutRouter (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_cbd101._.js:11466:11)\n    at main\n    at div\n    at http://sandbox.speck.sh/_next/static/chunks/node_modules_6508f6._.js:3582:192\n    at ChakraComponent2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:412:17)\n    at Flex2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:14757:13)\n    at EnvironmentProvider (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:8636:13)\n    at ColorModeProvider2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:227:13)\n    at ThemeProvider (http://sandbox.speck.sh/_next/static/chunks/node_modules_6508f6._.js:3611:175)\n    at ThemeProvider (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:633:13)\n    at Provider (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:17884:13)\n    at ChakraProvider (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:17927:38)\n    at CacheProvider (http://sandbox.speck.sh/_next/static/chunks/node_modules_6508f6._.js:14819:26)\n    at PostHogProvider (http://sandbox.speck.sh/_next/static/chunks/node_modules_posthog-js_73bf1d._.js:5846:23)\n    at Providers (http://sandbox.speck.sh/_next/static/chunks/app_a1c625._.js:1405:22)\n    at body\n    at html\n    at RedirectErrorBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7961:9)\n    at RedirectBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7969:11)\n    at NotFoundErrorBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7558:9)\n    at NotFoundBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7566:11)\n    at DevRootNotFoundBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7620:11)\n    at ReactDevOverlay (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:5971:9)\n    at HotReload (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7400:11)\n    at Router (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:9014:11)\n    at ErrorBoundaryHandler (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:8564:9)\n    at ErrorBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:8593:11)\n    at AppRouter (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:9287:13)\n    at ServerRoot (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:11361:11)\n    at RSCComponent\n    at Root (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:11371:11)",
+      "traceback": [
+        "at console.overrideMethod (http://localhost:8080/client_scripts/devtools.js:17817:32)",
+        "at push.[project]/node_modules/next/dist/client/app-index.js [app-client] (ecmascript).window.console.error (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:11269:22)",
+        "at console.error (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:6033:14)",
+        "at printWarning (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:80:42)",
+        "at error (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:58:21)",
+        "at warnForInsertedHydratedElement (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:29552:17)",
+        "at didNotFindHydratableInstance (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:30503:21)",
+        "at warnNonhydratedInstance (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:6438:41)",
+        "at tryToClaimNextHydratableInstance (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:6563:21)",
+        "at updateHostComponent$1 (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:14391:17)",
+        "at beginWork$1 (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:15923:28)",
+        "at beginWork (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:22731:28)",
+        "at performUnitOfWork (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:21794:24)",
+        "at workLoopConcurrent (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:21782:17)",
+        "at renderRootConcurrent (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:21750:25)",
+        "at performConcurrentWorkOnRoot (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:20783:48)",
+        "at workLoop (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_16d15d._.js?v=1742097899014:1958:48)",
+        "at flushWork (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_16d15d._.js?v=1742097899014:1936:28)",
+        "at MessagePort.performWorkUntilDeadline (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_16d15d._.js?v=1742097899014:2169:35)"
+      ]
+    },
+    {
+      "timestamp": 1185,
+      "level": "error",
+      "output": "Warning: An error occurred during hydration. The server HTML was replaced with client content in <%s>. #document",
+      "traceback": [
+        "at console.overrideMethod (http://localhost:8080/client_scripts/devtools.js:17817:32)",
+        "at push.[project]/node_modules/next/dist/client/app-index.js [app-client] (ecmascript).window.console.error (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:11269:22)",
+        "at console.error (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:6033:14)",
+        "at printWarning (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:80:42)",
+        "at error (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:58:21)",
+        "at errorHydratingContainer (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:30518:17)",
+        "at recoverFromConcurrentError (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:20856:21)",
+        "at performConcurrentWorkOnRoot (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:20813:46)",
+        "at workLoop (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_16d15d._.js?v=1742097899014:1958:48)",
+        "at flushWork (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_16d15d._.js?v=1742097899014:1936:28)",
+        "at MessagePort.performWorkUntilDeadline (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_16d15d._.js?v=1742097899014:2169:35)"
+      ]
+    },
+    {
+      "timestamp": 1185,
+      "level": "error",
+      "output": "Warning: An error occurred during hydration. The server HTML was replaced with client content in <%s>. #document",
+      "traceback": [
+        "at console.overrideMethod (http://localhost:8080/client_scripts/devtools.js:17817:32)",
+        "at push.[project]/node_modules/next/dist/client/app-index.js [app-client] (ecmascript).window.console.error (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:11269:22)",
+        "at console.error (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:6033:14)",
+        "at printWarning (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:80:42)",
+        "at error (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:58:21)",
+        "at errorHydratingContainer (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:30518:17)",
+        "at recoverFromConcurrentError (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:20856:21)",
+        "at performConcurrentWorkOnRoot (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:20813:46)",
+        "at workLoop (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_16d15d._.js?v=1742097899014:1958:48)",
+        "at flushWork (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_16d15d._.js?v=1742097899014:1936:28)",
+        "at MessagePort.performWorkUntilDeadline (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_16d15d._.js?v=1742097899014:2169:35)"
+      ]
+    },
+    {
+      "timestamp": 1205,
+      "level": "error",
+      "output": "Warning: The tag <%s> is unrecognized in this browser. If you meant to render a React component, start its name with an uppercase letter.%s text \n    at text\n    at MotionComponent (http://sandbox.speck.sh/_next/static/chunks/node_modules_framer-motion_dist_es_05b406._.js:11370:187)\n    at http://sandbox.speck.sh/_next/static/chunks/node_modules_6508f6._.js:3582:192\n    at ChakraComponent2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:412:17)\n    at Text2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:818:228)\n    at span\n    at MotionComponent (http://sandbox.speck.sh/_next/static/chunks/node_modules_framer-motion_dist_es_05b406._.js:11370:187)\n    at ul\n    at http://sandbox.speck.sh/_next/static/chunks/node_modules_6508f6._.js:3582:192\n    at ChakraComponent2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:412:17)\n    at div\n    at http://sandbox.speck.sh/_next/static/chunks/node_modules_6508f6._.js:3582:192\n    at ChakraComponent2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:412:17)\n    at Wrap2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:706:13)\n    at div\n    at http://sandbox.speck.sh/_next/static/chunks/node_modules_6508f6._.js:3582:192\n    at ChakraComponent2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:412:17)\n    at http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:7004:13\n    at VStack\n    at div\n    at MotionComponent (http://sandbox.speck.sh/_next/static/chunks/node_modules_framer-motion_dist_es_05b406._.js:11370:187)\n    at div\n    at http://sandbox.speck.sh/_next/static/chunks/node_modules_6508f6._.js:3582:192\n    at ChakraComponent2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:412:17)\n    at HeroSection\n    at div\n    at http://sandbox.speck.sh/_next/static/chunks/node_modules_6508f6._.js:3582:192\n    at ChakraComponent2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:412:17)\n    at Flex2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:14757:13)\n    at div\n    at http://sandbox.speck.sh/_next/static/chunks/node_modules_6508f6._.js:3582:192\n    at ChakraComponent2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:412:17)\n    at Home\n    at StaticGenerationSearchParamsBailoutProvider (http://sandbox.speck.sh/_next/static/chunks/node_modules_9871bb._.js:3005:11)\n    at InnerLayoutRouter (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_cbd101._.js:11361:11)\n    at RedirectErrorBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7961:9)\n    at RedirectBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7969:11)\n    at NotFoundErrorBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7558:9)\n    at NotFoundBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7566:11)\n    at LoadingBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_cbd101._.js:11457:11)\n    at ErrorBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:8593:11)\n    at InnerScrollAndFocusHandler (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_cbd101._.js:11273:9)\n    at ScrollAndFocusHandler (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_cbd101._.js:11348:11)\n    at RenderFromTemplateContext (http://sandbox.speck.sh/_next/static/chunks/node_modules_860c4b._.js:2889:44)\n    at OuterLayoutRouter (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_cbd101._.js:11466:11)\n    at main\n    at div\n    at http://sandbox.speck.sh/_next/static/chunks/node_modules_6508f6._.js:3582:192\n    at ChakraComponent2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:412:17)\n    at Flex2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:14757:13)\n    at EnvironmentProvider (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:8636:13)\n    at ColorModeProvider2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:227:13)\n    at ThemeProvider (http://sandbox.speck.sh/_next/static/chunks/node_modules_6508f6._.js:3611:175)\n    at ThemeProvider (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:633:13)\n    at Provider (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:17884:13)\n    at ChakraProvider (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:17927:38)\n    at CacheProvider (http://sandbox.speck.sh/_next/static/chunks/node_modules_6508f6._.js:14819:26)\n    at PostHogProvider (http://sandbox.speck.sh/_next/static/chunks/node_modules_posthog-js_73bf1d._.js:5846:23)\n    at Providers (http://sandbox.speck.sh/_next/static/chunks/app_a1c625._.js:1405:22)\n    at body\n    at html\n    at RedirectErrorBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7961:9)\n    at RedirectBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7969:11)\n    at NotFoundErrorBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7558:9)\n    at NotFoundBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7566:11)\n    at DevRootNotFoundBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7620:11)\n    at ReactDevOverlay (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:5971:9)\n    at HotReload (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7400:11)\n    at Router (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:9014:11)\n    at ErrorBoundaryHandler (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:8564:9)\n    at ErrorBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:8593:11)\n    at AppRouter (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:9287:13)\n    at ServerRoot (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:11361:11)\n    at RSCComponent\n    at Root (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:11371:11)",
+      "traceback": [
+        "at console.overrideMethod (http://localhost:8080/client_scripts/devtools.js:17817:32)",
+        "at push.[project]/node_modules/next/dist/client/app-index.js [app-client] (ecmascript).window.console.error (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:11269:22)",
+        "at console.error (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:6033:14)",
+        "at printWarning (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:80:42)",
+        "at error (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:58:21)",
+        "at createInstance (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:29839:45)",
+        "at completeWork (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:16959:50)",
+        "at completeUnitOfWork (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:21971:28)",
+        "at performUnitOfWork (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:21803:17)",
+        "at workLoopSync (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:21559:17)",
+        "at renderRootSync (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:21526:21)",
+        "at recoverFromConcurrentError (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:20859:30)",
+        "at performConcurrentWorkOnRoot (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:20813:46)",
+        "at workLoop (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_16d15d._.js?v=1742097899014:1958:48)",
+        "at flushWork (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_16d15d._.js?v=1742097899014:1936:28)",
+        "at MessagePort.performWorkUntilDeadline (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_16d15d._.js?v=1742097899014:2169:35)"
+      ]
+    },
+    {
+      "timestamp": 1205,
+      "level": "error",
+      "output": "Warning: The tag <%s> is unrecognized in this browser. If you meant to render a React component, start its name with an uppercase letter.%s text \n    at text\n    at MotionComponent (http://sandbox.speck.sh/_next/static/chunks/node_modules_framer-motion_dist_es_05b406._.js:11370:187)\n    at http://sandbox.speck.sh/_next/static/chunks/node_modules_6508f6._.js:3582:192\n    at ChakraComponent2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:412:17)\n    at Text2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:818:228)\n    at span\n    at MotionComponent (http://sandbox.speck.sh/_next/static/chunks/node_modules_framer-motion_dist_es_05b406._.js:11370:187)\n    at ul\n    at http://sandbox.speck.sh/_next/static/chunks/node_modules_6508f6._.js:3582:192\n    at ChakraComponent2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:412:17)\n    at div\n    at http://sandbox.speck.sh/_next/static/chunks/node_modules_6508f6._.js:3582:192\n    at ChakraComponent2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:412:17)\n    at Wrap2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:706:13)\n    at div\n    at http://sandbox.speck.sh/_next/static/chunks/node_modules_6508f6._.js:3582:192\n    at ChakraComponent2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:412:17)\n    at http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:7004:13\n    at VStack\n    at div\n    at MotionComponent (http://sandbox.speck.sh/_next/static/chunks/node_modules_framer-motion_dist_es_05b406._.js:11370:187)\n    at div\n    at http://sandbox.speck.sh/_next/static/chunks/node_modules_6508f6._.js:3582:192\n    at ChakraComponent2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:412:17)\n    at HeroSection\n    at div\n    at http://sandbox.speck.sh/_next/static/chunks/node_modules_6508f6._.js:3582:192\n    at ChakraComponent2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:412:17)\n    at Flex2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:14757:13)\n    at div\n    at http://sandbox.speck.sh/_next/static/chunks/node_modules_6508f6._.js:3582:192\n    at ChakraComponent2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:412:17)\n    at Home\n    at StaticGenerationSearchParamsBailoutProvider (http://sandbox.speck.sh/_next/static/chunks/node_modules_9871bb._.js:3005:11)\n    at InnerLayoutRouter (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_cbd101._.js:11361:11)\n    at RedirectErrorBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7961:9)\n    at RedirectBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7969:11)\n    at NotFoundErrorBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7558:9)\n    at NotFoundBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7566:11)\n    at LoadingBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_cbd101._.js:11457:11)\n    at ErrorBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:8593:11)\n    at InnerScrollAndFocusHandler (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_cbd101._.js:11273:9)\n    at ScrollAndFocusHandler (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_cbd101._.js:11348:11)\n    at RenderFromTemplateContext (http://sandbox.speck.sh/_next/static/chunks/node_modules_860c4b._.js:2889:44)\n    at OuterLayoutRouter (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_cbd101._.js:11466:11)\n    at main\n    at div\n    at http://sandbox.speck.sh/_next/static/chunks/node_modules_6508f6._.js:3582:192\n    at ChakraComponent2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:412:17)\n    at Flex2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:14757:13)\n    at EnvironmentProvider (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:8636:13)\n    at ColorModeProvider2 (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:227:13)\n    at ThemeProvider (http://sandbox.speck.sh/_next/static/chunks/node_modules_6508f6._.js:3611:175)\n    at ThemeProvider (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:633:13)\n    at Provider (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:17884:13)\n    at ChakraProvider (http://sandbox.speck.sh/_next/static/chunks/node_modules_@chakra-ui_react_dist_esm_494c01._.js:17927:38)\n    at CacheProvider (http://sandbox.speck.sh/_next/static/chunks/node_modules_6508f6._.js:14819:26)\n    at PostHogProvider (http://sandbox.speck.sh/_next/static/chunks/node_modules_posthog-js_73bf1d._.js:5846:23)\n    at Providers (http://sandbox.speck.sh/_next/static/chunks/app_a1c625._.js:1405:22)\n    at body\n    at html\n    at RedirectErrorBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7961:9)\n    at RedirectBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7969:11)\n    at NotFoundErrorBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7558:9)\n    at NotFoundBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7566:11)\n    at DevRootNotFoundBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7620:11)\n    at ReactDevOverlay (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:5971:9)\n    at HotReload (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:7400:11)\n    at Router (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:9014:11)\n    at ErrorBoundaryHandler (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:8564:9)\n    at ErrorBoundary (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:8593:11)\n    at AppRouter (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:9287:13)\n    at ServerRoot (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:11361:11)\n    at RSCComponent\n    at Root (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:11371:11)",
+      "traceback": [
+        "at console.overrideMethod (http://localhost:8080/client_scripts/devtools.js:17817:32)",
+        "at push.[project]/node_modules/next/dist/client/app-index.js [app-client] (ecmascript).window.console.error (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:11269:22)",
+        "at console.error (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_client_33e5f5._.js?v=1742097899014:6033:14)",
+        "at printWarning (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:80:42)",
+        "at error (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:58:21)",
+        "at createInstance (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:29839:45)",
+        "at completeWork (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:16959:50)",
+        "at completeUnitOfWork (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:21971:28)",
+        "at performUnitOfWork (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:21803:17)",
+        "at workLoopSync (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:21559:17)",
+        "at renderRootSync (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:21526:21)",
+        "at recoverFromConcurrentError (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:20859:30)",
+        "at performConcurrentWorkOnRoot (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js?v=1742097899014:20813:46)",
+        "at workLoop (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_16d15d._.js?v=1742097899014:1958:48)",
+        "at flushWork (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_16d15d._.js?v=1742097899014:1936:28)",
+        "at MessagePort.performWorkUntilDeadline (http://sandbox.speck.sh/_next/static/chunks/node_modules_next_dist_compiled_16d15d._.js?v=1742097899014:2169:35)"
+      ]
+    },
+    {
+      "timestamp": 1299,
+      "level": "log",
+      "output": "%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit",
+      "traceback": [
+        "at s (https://va.vercel-scripts.com/v1/script.debug.js:1:462)",
+        "at https://va.vercel-scripts.com/v1/script.debug.js:1:2230",
+        "at t (https://va.vercel-scripts.com/v1/script.debug.js:1:2878)",
+        "at https://va.vercel-scripts.com/v1/script.debug.js:1:2890",
+        "at https://va.vercel-scripts.com/v1/script.debug.js:1:2931",
+        "at https://va.vercel-scripts.com/v1/script.debug.js:1:2935"
+      ]
+    },
+    {
+      "timestamp": 1299,
+      "level": "log",
+      "output": "%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit",
+      "traceback": [
+        "at s (https://va.vercel-scripts.com/v1/script.debug.js:1:462)",
+        "at https://va.vercel-scripts.com/v1/script.debug.js:1:2230",
+        "at t (https://va.vercel-scripts.com/v1/script.debug.js:1:2878)",
+        "at https://va.vercel-scripts.com/v1/script.debug.js:1:2890",
+        "at https://va.vercel-scripts.com/v1/script.debug.js:1:2931",
+        "at https://va.vercel-scripts.com/v1/script.debug.js:1:2935"
+      ]
+    },
+    {
+      "timestamp": 1299,
+      "level": "log",
+      "output": "%c[Vercel Web Analytics]%c [pageview] http://sandbox.speck.sh/preview/6f11f0d5-3409-4a6c-8ace-f7f44725ec64/56426d97-c979-4fb1-9a9a-46d4d27c6124/ color: rgb(120, 120, 120) color: inherit {\n  \"o\": \"http://sandbox.speck.sh/preview/6f11f0d5-3409-4a6c-8ace-f7f44725ec64/56426d97-c979-4fb1-9a9a-46d4d27c6124/\",\n  \"sv\": \"0.1.2\",\n  \"sdkn\": \"@vercel/analytics/react\",\n  \"sdkv\": \"1.5.0\",\n  \"ts\": 1742097900563\n}",
+      "traceback": [
+        "at s (https://va.vercel-scripts.com/v1/script.debug.js:1:462)",
+        "at f (https://va.vercel-scripts.com/v1/script.debug.js:1:1477)"
+      ]
+    },
+    {
+      "timestamp": 1299,
+      "level": "log",
+      "output": "%c[Vercel Web Analytics]%c [pageview] http://sandbox.speck.sh/preview/6f11f0d5-3409-4a6c-8ace-f7f44725ec64/56426d97-c979-4fb1-9a9a-46d4d27c6124/ color: rgb(120, 120, 120) color: inherit {\n  \"o\": \"http://sandbox.speck.sh/preview/6f11f0d5-3409-4a6c-8ace-f7f44725ec64/56426d97-c979-4fb1-9a9a-46d4d27c6124/\",\n  \"sv\": \"0.1.2\",\n  \"sdkn\": \"@vercel/analytics/react\",\n  \"sdkv\": \"1.5.0\",\n  \"ts\": 1742097900563\n}",
+      "traceback": [
+        "at s (https://va.vercel-scripts.com/v1/script.debug.js:1:462)",
+        "at f (https://va.vercel-scripts.com/v1/script.debug.js:1:1477)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "id": "d4aed428-f9dd-4b75-aa57-981c193507c3",
+  "name": "Recording 11:09 PM",
+  "annotation": "penis2",
+  "events": [
+    {
+      "type": "click",
+      "delay": 0,
+      "url": "http://sandbox.speck.sh/login",
+      "target": {
+        "tag_name": "INPUT",
+        "id": "",
+        "class_name": "chakra-input css-1ndqqtl",
+        "name": "",
+        "value": "@rag_pil",
+        "checked": false,
+        "xpath": "/html/body/div[1]/div/div[2]/input",
+        "css_selector": "body.__variable_1e4310.__variable_c3aa02.chakra-ui-dark > div.css-191fh0c:nth-child(1) > div.chakra-stack.css-qa1fvv:nth-child(2) > div.chakra-stack.css-1hfflji:nth-child(3) > input.chakra-input.css-1ndqqtl[type=\"text\"]:nth-child(1)",
+        "bounding_box": {
+          "min_x": 896.232666015625,
+          "min_y": 733.8194580078125,
+          "max_x": 1114.8785095214844,
+          "max_y": 773.8194580078125,
+          "width": 218.64584350585938,
+          "height": 40.0,
+          "center_x": 1005.5555877685547,
+          "center_y": 753.8194580078125
+        },
+        "inner_text": ""
+      },
+      "button": 0
+    },
+    {
+      "type": "input",
+      "delay": 353,
+      "url": "http://sandbox.speck.sh/login",
+      "target": {
+        "tag_name": "INPUT",
+        "id": "",
+        "class_name": "chakra-input css-1ndqqtl",
+        "name": "",
+        "value": "@rag_pi",
+        "checked": false,
+        "xpath": "/html/body/div[1]/div/div[2]/input",
+        "css_selector": "body.__variable_1e4310.__variable_c3aa02.chakra-ui-dark > div.css-191fh0c:nth-child(1) > div.chakra-stack.css-qa1fvv:nth-child(2) > div.chakra-stack.css-1hfflji:nth-child(3) > input.chakra-input.css-1ndqqtl[type=\"text\"]:nth-child(1)",
+        "bounding_box": {
+          "min_x": 896.232666015625,
+          "min_y": 733.8194580078125,
+          "max_x": 1114.8785095214844,
+          "max_y": 773.8194580078125,
+          "width": 218.64584350585938,
+          "height": 40.0,
+          "center_x": 1005.5555877685547,
+          "center_y": 753.8194580078125
+        },
+        "inner_text": ""
+      },
+      "value": "@rag_pi",
+      "checked": false,
+      "time_taken": 0
+    },
+    {
+      "type": "change",
+      "delay": 929,
+      "url": "http://sandbox.speck.sh/login",
+      "target": {
+        "tag_name": "INPUT",
+        "id": "",
+        "class_name": "chakra-input css-1ndqqtl",
+        "name": "",
+        "value": "@rag_pi",
+        "checked": false,
+        "xpath": "/html/body/div[1]/div/div[2]/input",
+        "css_selector": "body.__variable_1e4310.__variable_c3aa02.chakra-ui-dark > div.css-191fh0c:nth-child(1) > div.chakra-stack.css-qa1fvv:nth-child(2) > div.chakra-stack.css-1hfflji:nth-child(3) > input.chakra-input.css-1ndqqtl[type=\"text\"]:nth-child(1)",
+        "bounding_box": {
+          "min_x": 896.232666015625,
+          "min_y": 733.8194580078125,
+          "max_x": 1114.8785095214844,
+          "max_y": 773.8194580078125,
+          "width": 218.64584350585938,
+          "height": 40.0,
+          "center_x": 1005.5555877685547,
+          "center_y": 753.8194580078125
+        },
+        "inner_text": ""
+      },
+      "value": "@rag_pi",
+      "checked": false
+    },
+    {
+      "type": "click",
+      "delay": 101,
+      "url": "http://sandbox.speck.sh/login",
+      "target": {
+        "tag_name": "BUTTON",
+        "id": "",
+        "class_name": "chakra-button css-4mydf9",
+        "name": "",
+        "value": "",
+        "checked": false,
+        "xpath": "/html/body/div[1]/div/div[2]/button",
+        "css_selector": "body.__variable_1e4310.__variable_c3aa02.chakra-ui-dark > div.css-191fh0c:nth-child(1) > div.chakra-stack.css-qa1fvv:nth-child(2) > div.chakra-stack.css-1hfflji:nth-child(3) > button.chakra-button.css-4mydf9[type=\"button\"]:nth-child(2)",
+        "bounding_box": {
+          "min_x": 964.0972900390625,
+          "min_y": 789.80908203125,
+          "max_x": 1047.0139617919922,
+          "max_y": 821.8056106567383,
+          "width": 82.91667175292969,
+          "height": 31.99652862548828,
+          "center_x": 1005.5556259155273,
+          "center_y": 805.8073463439941
+        },
+        "inner_text": "Login"
+      },
+      "button": 0
+    },
+    {
+      "type": "component_selection",
+      "delay": 25085,
+      "url": "http://sandbox.speck.sh/login",
+      "target": {
+        "tag_name": "P",
+        "id": "",
+        "class_name": "chakra-text css-zyb6lv",
+        "name": "",
+        "value": "",
+        "checked": false,
+        "xpath": "/html/body/div[1]/div/div[1]/p[2]",
+        "css_selector": "body.__variable_1e4310.__variable_c3aa02.chakra-ui-dark > div.css-191fh0c:nth-child(1) > div.chakra-stack.css-qa1fvv:nth-child(2) > div.chakra-stack.css-7zp8no:nth-child(2) > p.chakra-text.css-zyb6lv:nth-child(3)",
+        "bounding_box": null,
+        "inner_text": ""
+      },
+      "annotation": "penis",
+      "component": {
+        "component_name": "",
+        "file_path": "",
+        "line_number": -1,
+        "no_component_info": true,
+        "html_tag": "p",
+        "html_class_name": "chakra-text css-zyb6lv",
+        "html_children": "pect",
+        "parents": [],
+        "description": null
+      }
+    },
+    {
+      "type": "terminate",
+      "delay": 2416,
+      "url": "http://sandbox.speck.sh/login",
+      "target": {
+        "tag_name": "UNKNOWN",
+        "id": "",
+        "class_name": "",
+        "name": "",
+        "value": "",
+        "checked": false,
+        "xpath": "",
+        "css_selector": "",
+        "bounding_box": null,
+        "inner_text": ""
+      }
+    }
+  ],
+  "base_url": "http://sandbox.speck.sh/preview/6f11f0d5-3409-4a6c-8ace-f7f44725ec64/0cc8c588-75b6-4cfe-af6f-0b41344874b8",
+  "initial_url": "http://sandbox.speck.sh/login",
+  "duration": 30819,
+  "viewport_size": { "width": 1340, "height": 1416 },
+  "console_logs": [
+    {
+      "timestamp": 3318,
+      "level": "error",
+      "output": "Fetch error: undefined/user/@rag_pi returned 404",
+      "traceback": [
+        "Error: HTTP error! status: 404",
+        "at async handleGetUserInfo (webpack-internal:///(app-pages-browser)/./app/login/page.tsx:64:34)"
+      ]
+    },
+    {
+      "timestamp": 3601,
+      "level": "error",
+      "output": "HTTP error! status: 404",
+      "traceback": [
+        "Error: HTTP error! status: 404",
+        "at handleGetUserInfo (webpack-internal:///(app-pages-browser)/./app/login/page.tsx:66:27)"
+      ]
+    }
+  ]
+}

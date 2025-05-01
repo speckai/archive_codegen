@@ -1,0 +1,10 @@
+{
+  "folders": [
+    {
+      "path": "../apps/api",
+    },
+  ],
+  "settings": {
+    "window.title": "${activeEditorShort}${separator}Speck API",
+  },
+}

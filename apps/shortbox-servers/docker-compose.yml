@@ -1,0 +1,34 @@
+version: "3.8"
+
+services:
+  manager:
+    build:
+      context: ./manager
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - SANDBOX_MODE=local
+      - CONTAINER_HOST=container
+      - CONTAINER_PORT=8000
+    networks:
+      - sandbox-network
+    depends_on:
+      - container
+
+  container:
+    build:
+      context: ./container
+      dockerfile: Dockerfile
+    ports:
+      - "8001:8000" # API port
+      - "8002:8000/tcp" # WebSocket port
+      - "3000-3999:3000-3999" # React ports
+    volumes:
+      - ./examples:/workspace
+    networks:
+      - sandbox-network
+
+networks:
+  sandbox-network:
+    driver: bridge

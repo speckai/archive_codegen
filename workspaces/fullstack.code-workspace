@@ -1,0 +1,15 @@
+{
+  "folders": [
+    {
+      "name": "app",
+      "path": "../apps/app",
+    },
+    {
+      "name": "server",
+      "path": "../apps/api",
+    },
+  ],
+  "settings": {
+    "window.title": "${activeEditorShort}${separator}Speck Fullstack",
+  },
+}

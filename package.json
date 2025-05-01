@@ -1,0 +1,25 @@
+{
+  "name": "speck",
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "docs": "turbo dev --filter=docs",
+    "blog": "turbo dev --filter=blog",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "turbo": "^2.2.3",
+    "typescript": "^5.4.5"
+  },
+  "packageManager": "pnpm@9.0.6",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@types/marked": "^6.0.0",
+    "marked": "^15.0.7"
+  }
+}

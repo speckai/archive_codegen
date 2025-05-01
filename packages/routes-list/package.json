@@ -1,0 +1,31 @@
+{
+  "name": "list-routes",
+  "version": "1.0.3",
+  "description": "Generate all routes in Next",
+  "main": "./dist/routes.js",
+  "types": "./dist/routes.d.ts",
+  "bin": {
+    "generate-list-routes": "./dist/generate.js",
+    "find-imports": "./dist/findImports.js",
+    "find-route-file": "./dist/findRoutePath.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "package.json"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "ignore": "^7.0.3",
+    "list-paths": "1.0.2",
+    "node-fs": "^0.1.7",
+    "typescript": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.7"
+  },
+  "packageManager": "pnpm@9.15.1+sha512.1acb565e6193efbebda772702950469150cf12bcc764262e7587e71d19dc98a423dff9536e57ea44c49bdf790ff694e83c27be5faa23d67e0c033b583be4bfcf"
+}

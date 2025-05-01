@@ -1,0 +1,44 @@
+{
+  "id": "08bc4e27-988d-4ec4-8470-607cb8c1dd47",
+  "events": [
+    {
+      "type": "scroll",
+      "delay": 3186,
+      "url": "http://sandbox.speck.sh/preview/6f11f0d5-3409-4a6c-8ace-f7f44725ec64/a5253f84-3db6-4e19-bb01-1a01974c523e/",
+      "target": { "tag_name": "DOCUMENT" },
+      "scroll_x": 0,
+      "scroll_y": 3216
+    },
+    {
+      "type": "component_selection",
+      "delay": 10962,
+      "url": "http://sandbox.speck.sh/preview/6f11f0d5-3409-4a6c-8ace-f7f44725ec64/a5253f84-3db6-4e19-bb01-1a01974c523e/",
+      "target": {
+        "tag_name": "DIV",
+        "id": "",
+        "class_name": "css-1p47c8u speck-selected-component",
+        "xpath": "/html/body/div[1]/main/div/div/div[6]",
+        "css_selector": "body.chakra-ui-dark.vsc-initialized > div.css-zf0iqh:nth-child(1) > main:nth-child(2) > div.css-hac9ab > div.css-1m0co3j > div.css-1p47c8u.speck-selected-component:nth-child(6)"
+      },
+      "annotation": "brokeen",
+      "component": {
+        "file_path": "<[project]/app/components/home-panels/picture-section.tsx>",
+        "line_number": 150,
+        "component_name": null
+      }
+    },
+    {
+      "type": "terminate",
+      "delay": 1588,
+      "url": "http://sandbox.speck.sh/preview/6f11f0d5-3409-4a6c-8ace-f7f44725ec64/a5253f84-3db6-4e19-bb01-1a01974c523e/",
+      "target": { "tag_name": "UNKNOWN" }
+    }
+  ],
+  "base_url": "http://sandbox.speck.sh/preview/6f11f0d5-3409-4a6c-8ace-f7f44725ec64/1cea3601-f441-4591-9ce5-2886755e793b",
+  "initial_url": "http://sandbox.speck.sh/preview/6f11f0d5-3409-4a6c-8ace-f7f44725ec64/a5253f84-3db6-4e19-bb01-1a01974c523e/",
+  "duration": 16412,
+  "viewport_size": { "width": 2761, "height": 1416 },
+  "name": "Recording 06:14 PM",
+  "annotation": "asdf",
+  "console_logs": []
+}

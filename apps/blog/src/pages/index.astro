@@ -1,0 +1,47 @@
+---
+import { getCollection } from "astro:content";
+import BaseHead from "../components/BaseHead.astro";
+import CardPost from "../components/CardPost.astro";
+import Footer from "../components/Footer.astro";
+import HeroPost from "../components/HeroPost.astro";
+import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
+
+const posts = (await getCollection("blog")).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+const heroPost = posts[0];
+const morePosts = posts.slice(1);
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+
+  <body
+    class="antialiased text-white bg-[rgba(10,10,30,1)] tracking-tight min-h-screen"
+  >
+    <main class="max-w-6xl mx-auto px-4">
+      <div class="flex flex-col items-center">
+        <h1 class="text-4xl font-bold mb-4">Speck Blog</h1>
+        <p class="text-xl text-gray-300 mb-8">
+          A collection of our technical challenges, experiences and notes
+        </p>
+      </div>
+
+      <HeroPost {...heroPost} />
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        {
+          morePosts.map((post) => (
+            <div class="col-span-1">
+              <CardPost {...post} />
+            </div>
+          ))
+        }
+      </div>
+    </main>
+
+    <Footer />
+  </body>
+</html>

@@ -1,0 +1,6 @@
+### Shortbox Environment
+
+- The shortbox environment is a cloud sandbox for users to develop in.
+- There are 2 services for the shortbox (sandbox) - container and manager. The manager orchestrates the containers.
+- The endpoint to check containers is `http://sandbox-alb-103265220.us-west-1.elb.amazonaws.com/containers/list`.
+- We use OpenTofu

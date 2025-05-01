@@ -1,0 +1,71 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Speck Documentation",
+  "logo": {
+    "dark": "/logo/background_dark.png",
+    "light": "/logo/background_light.png"
+  },
+  "favicon": "/favicon.png",
+  "colors": {
+    "primary": "#0F86AA",
+    "light": "#35B5FB",
+    "dark": "#0599E9",
+    "anchors": {
+      "from": "#0599E9",
+      "to": "#35B5FB"
+    }
+  },
+  "modeToggle": {
+    "default": "dark"
+  },
+  "topbarLinks": [
+    {
+      "name": "Home",
+      "url": "https://speck.sh"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Beta Access",
+    "url": "https://speck.sh/pricing"
+  },
+  "tabs": [],
+  "anchors": [
+    {
+      "name": "Introduction",
+      "icon": "pencil",
+      "url": "home"
+    },
+    {
+      "name": "Quick Start",
+      "icon": "code",
+      "url": "quickstart"
+    },
+    {
+      "name": "Contact us",
+      "icon": "envelope",
+      "url": "https://speck.sh/contact"
+    },
+    {
+      "name": "Community",
+      "icon": "discord",
+      "url": "https://discord.gg/speck"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Introduction",
+      "pages": ["home"]
+    },
+    {
+      "group": "Guides",
+      "pages": ["quickstart/introduction"]
+    }
+  ],
+  "footerSocials": {
+    "website": "https://speck.sh",
+    "github": "https://github.com/speckai/speck",
+    "discord": "https://discord.gg/speck",
+    "linkedin": "https://www.linkedin.com/company/speck",
+    "x": "https://x.com/speck_ai"
+  }
+}

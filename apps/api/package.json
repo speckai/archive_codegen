@@ -1,0 +1,9 @@
+{
+  "name": "api",
+  "version": "0.0.3",
+  "scripts": {
+    "dev": "sh scripts/run_dev.sh",
+    "dev-prod": "sh scripts/run_dev_prod.sh",
+    "local": "sh scripts/run_local.sh"
+  }
+}

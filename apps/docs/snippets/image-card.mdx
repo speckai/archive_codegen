@@ -1,0 +1,63 @@
+export const ImageCard = ({
+  title,
+  image,
+  file,
+  description,
+  authors,
+  date,
+}) => (
+  <Card href={`/blog/pages/${file}`}>
+    <img
+      src={image}
+      alt={title}
+      style={{ width: "100%", borderRadius: "8px 8px 0 0" }}
+    />
+    <div style={{ padding: "16px" }}>
+      <h3 style={{ fontSize: "18px", fontWeight: "bold", marginBottom: "8px" }}>
+        {title}
+      </h3>
+      <p style={{ fontSize: "14px", color: "#666", marginBottom: "12px" }}>
+        {description}
+      </p>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "flex-start",
+        }}
+      >
+        <div style={{ width: "60%", marginRight: "8px" }}>
+          {authors.map((author, index) => (
+            <div
+              key={index}
+              style={{
+                display: "flex",
+                alignItems: "center",
+                marginBottom: "8px",
+              }}
+            >
+              <img
+                src={`/images/icons/${author.split(" ")[0].toLowerCase()}.png`}
+                alt={author}
+                style={{
+                  width: "24px",
+                  height: "24px",
+                  borderRadius: "50%",
+                  marginRight: "8px",
+                }}
+              />
+              <span style={{ fontSize: "14px", color: "#444" }}>{author}</span>
+            </div>
+          ))}
+        </div>
+        <span
+          style={{ fontSize: "14px", color: "#888", alignSelf: "flex-start" }}
+        >
+          {date}
+        </span>
+      </div>
+    </div>
+  </Card>
+);
+
+;

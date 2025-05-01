@@ -1,0 +1,15 @@
+# Terraform/OpenTofu files
+*.tfvars
+*.tfstate
+*.tfstate.*
+.terraform/
+.tofu/
+.env
+crash.log
+
+# Local development
+.idea/
+.vscode/
+*.swp
+*.swo
+.env.*
